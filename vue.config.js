@@ -11,6 +11,6 @@ module.exports = {
       .set("views", path.resolve(__dirname, "src/views"));
   },
     publicPath: process.env.NODE_ENV === 'production'
-    ? '/Interno-site/'
+    ? '/Interno-site/docs/'
     : '/'
 };
