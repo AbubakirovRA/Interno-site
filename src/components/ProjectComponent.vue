@@ -39,6 +39,11 @@ export default {
   created() {
     this.fetchProjectItems();
   },
+  data() {
+    return {
+      gridStyle: {},
+    };
+  },
 };
 </script>
 

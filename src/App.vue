@@ -73,11 +73,17 @@ export default {
 }
 
 .top {
-  width: 1920px;
+  max-width: 1920px; /* Изменено на max-width, чтобы не превышать 1920px на больших экранах */
+  margin: 0 auto; /* Центрирование .top */
 }
 
 .center {
   padding-left: calc(50% - 1920px / 2);
   padding-right: calc(50% - 1920px / 2);
+}
+
+.wrapper {
+  overflow: hidden; /* Добавлено свойство overflow, чтобы скрыть возможные переполнения */
+  position: relative; /* Добавлено свойство position, чтобы корректно обрабатывать позиционирование потомков */
 }
 </style>
