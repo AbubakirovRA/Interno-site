@@ -49,7 +49,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .card-element {
   position: relative;
   width: 552px;

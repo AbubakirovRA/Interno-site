@@ -100,7 +100,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .blog-box {
   display: flex;
   flex-direction: column;

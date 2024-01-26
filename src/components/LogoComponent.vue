@@ -28,7 +28,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 /* Подключение шрифта */
 // @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 

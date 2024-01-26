@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 // Общие стили для текста
 .text-style {
   font-family: "DM Serif Display";

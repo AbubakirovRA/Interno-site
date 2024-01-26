@@ -96,7 +96,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .paginator {
   width: 320px;
   height: 52px;
