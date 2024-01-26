@@ -130,7 +130,7 @@ export default {
 
 .current-page {
   background-color: #f4f0ec;
-  transform: scale(1.07);
+  transform: scale(1.03);
   border: none;
   margin-top: 6px;
 }

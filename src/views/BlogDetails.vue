@@ -49,7 +49,7 @@ export default {
             description:
               "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
           },
-          tags: ["Kitchen"],
+          tags: ["Building"],
         },
         // Вторая статья
         {
@@ -75,7 +75,7 @@ export default {
             description:
               "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
           },
-          tags: ["Architecture"],
+          tags: ["Design"],
         },
         // Третья статья
         {
@@ -101,7 +101,7 @@ export default {
             description:
               "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
           },
-          tags: ["Design"],
+          tags: ["Kitchen"],
         },
         // Четвертая статья
         {
@@ -153,7 +153,7 @@ export default {
             description:
               "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
           },
-          tags: ["Kitchen Planning"],
+          tags: ["Architecture"],
         },
         // Шестая статья
         {
@@ -179,17 +179,10 @@ export default {
             description:
               "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
           },
-          tags: ["Inspiration"],
+          tags: ["Bedroom"],
         },
       ],
-      allTags: [
-        "Kitchen",
-        "Bedroom",
-        "Building",
-        "Architecture",
-        "Kitchen Planning",
-        "Inspiration",
-      ],
+      allTags: ["Kitchen", "Bedroom", "Building", "Architecture", "Design"],
       selectedTags: [],
     };
   },

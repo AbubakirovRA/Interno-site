@@ -35,9 +35,10 @@ export default {
 <style scoped>
 /* Стили ArticleList (стили для списка статей) */
 .article-wrapper {
+  overflow: hidden;
   display: flex;
   width: 1200px;
-  height: 2660px;
+  min-height: 100%;
   margin-left: 360px;
   margin-top: 200px;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article">
     <div class="article-title">{{ article.title }}</div>
     <div class="cover">
       <div class="articleImage-wrapper">
@@ -58,27 +58,39 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+// Общие стили для текста
+.text-style {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .article-title {
   width: 684px;
   height: 126px;
-  font-family: DM Serif Display;
   font-size: 50px;
-  font-weight: 400;
   line-height: 63px;
-  letter-spacing: 0.02em;
-  text-align: left;
   margin-bottom: 21px;
+  @extend .text-style; // Использование общего стиля
 }
 
-.articleImage-wrapper {
-  margin-bottom: 46px;
+.post {
+  width: 560px;
+  height: 63px;
+  font-size: 50px;
+  line-height: 63px;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  @extend .text-style; // Использование общего стиля
 }
 
+// Остальные стили остаются без изменений
 .cover-bottom {
   display: flex;
   justify-content: space-between;
-  font-family: Jost;
+  font-family: "Jost";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -86,25 +98,22 @@ export default {
   text-align: left;
 }
 
-.cover {
-  margin-bottom: 46px;
-}
 .description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 800px;
   height: 236px;
-  font-family: Jost;
+  @extend .text-style; // Использование общего стиля
   font-size: 22px;
-  font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.01em;
   text-align: left;
   margin-bottom: 35px;
 }
+
 .post-text {
-  font-family: Jost;
+  @extend .text-style; // Использование общего стиля
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
@@ -112,28 +121,17 @@ export default {
   text-align: left;
   margin-bottom: 44px;
 }
-.post {
-  width: 560px;
-  height: 63px;
-  margin-top: 27px;
-  margin-bottom: 20px;
-  font-family: DM Serif Display;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 63px;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
+
 .wrapper1 {
   display: flex;
 }
+
 .marker {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  font-family: DM Serif Display;
+  @extend .text-style; // Использование общего стиля
   font-size: 20px;
-  font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.02em;
   text-align: left;
